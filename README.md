@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# React inlamning report
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objective of task
+The goal of the task to creat an **app** that should have at least 3 views and navigation. The application should be created using react-router-dom. The application must make use of the following things:
+<ul>
+  <li>form</li>
+  <li>useState hook to handle form data</li>
+</ul> 
 
-## Available Scripts
+## Planning
 
-In the project directory, you can run:
+I started with creating a react-type-script project and cleaned the project with unneccessary files. I have created three pages Home, About and Users using SPA (single page application). I have used useEffect hook and useState hook on all pages. I have used these hooks to change the title and add feedback on the user's page. 
 
-### `npm start`
+I have designed a home-decor webside with minimal content. The main focus is to use react functions and hooks. The webside  advertises products and also receive the feedback on user.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About the website
 
-### `npm test`
+The home page contains a short description about the home decoration and provide option to change the title of the page and document. It also counts how many times a user has changed the document's title. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Home](public/images/home.jpg)
 
-### `npm run build`
+The about page describes the products and has some images of the products. The react hook is used to show and hide the image on this page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![About-us](public/images/aboutus.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The user page is designed for the customer to contact us. The page provides an option to directly write an email or write a feedback directly on the page. The feedback is updated on the page using useEffect and useState hooks. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![HTTP](public/images/contact.jpg)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Klar](public/images/klar.jpg)
+*Sania Athar*
